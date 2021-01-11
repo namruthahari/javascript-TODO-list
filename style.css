@@ -145,4 +145,48 @@ input {
 .addBtn:hover {
   background-color: #bbb;
 }
-  
+
+/* FORM */
+form {
+	margin-top:3rem;
+    display:flex;
+    font-family:monospace;
+    flex-wrap:wrap;
+    
+}
+form label {
+	min-width:100%;
+	margin-bottom:.5rem;
+    font-size:1.3rem;
+    font-family:monospace;
+}
+form input {
+    flex-grow:1;
+    font-family:monospace;
+    border:none;
+    margin: 15px;
+	background:#f7f1f1;
+	padding:0 1.5em;
+	font-size:initial;
+}
+form button {
+	padding:0 1.3rem;
+    border:none;
+    margin: 15px;
+	background:#111111;
+	color:white;
+	text-transform:uppercase;
+	font-weight:bold;
+	border:1px solid rgba(255,255,255,.3);
+	margin-left:5px;
+	cursor:pointer;
+	transition:background .2s ease-out;
+}
+form button:hover {
+	background:rgb(219, 38, 38);
+}
+form input, 
+form button {
+	font-family:monospace;
+	height:3rem;
+}

@@ -30,6 +30,11 @@
             <li>Clean desk</li>
           </ul>
   </div>
+  <form name="newform" v-on:submit.prevent="addItem">
+    <label for="newitem">Add to the todo list</label>
+    <input type="text" name="newitem" id="newitem" v-model="newitem">
+    <button type="submit">Add item</button>
+  </form>
 </div>
 
 <!-- internal js link -->
